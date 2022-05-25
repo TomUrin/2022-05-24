@@ -8,8 +8,12 @@
     <title>Spalvotas puslapis</title>
 </head>
 <body>
-    <button class = "btn"><a style = "text-decoration: none; padding: 17px 50px; color: black; font-size: 30px" href = "http://localhost/php-homework/2022-05-24/001/spalvotas.php">Black</a></button>
-    <button class = "btn"><a style = "text-decoration: none; padding: 17px 50px; color: red; font-size: 30px" href = "http://localhost/php-homework/2022-05-24/001/spalvotas.php?color=1">Red</a></button>
+    <button type="submit" class = "btn">
+        <a style = "text-decoration: none; padding: 17px 50px; color: black; font-size: 30px" href = "http://localhost/php-homework/2022-05-24/001/spalvotas.php">Black</a>
+    </button>
+    <button type="submit" class = "btn">
+        <a style = "text-decoration: none; padding: 17px 50px; color: red; font-size: 30px" href = "http://localhost/php-homework/2022-05-24/001/spalvotas.php?color=1">Red</a>
+    </button>
     <?php
     if($_GET["color"]) {
     ?>

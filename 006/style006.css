@@ -3,11 +3,20 @@ body {
     justify-content: center;
     align-items: center;
 }
-.btn {
+button {
+    margin: 50px;
     margin-top: calc(50vh - 25px);
     width: 200px;
     height: 50px;
     border-radius: 50px;
+}
+
+.btnGet {
+    background-color: #3CB371;
+}
+
+.btnPost {
+    background-color: #FFFF66;
 }
 
 .link {
