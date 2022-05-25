@@ -4,7 +4,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
    $_SESSION['switch'] = $_POST['color'];
 
-    header('Location: http://localhost/php-homework/2022-05-24/003/spalvotas003.php');
+    header('Location: http://localhost/php-homework/2022-05-24/003/003.php');
     die;
 }
 
