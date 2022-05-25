@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href = "./style007.css">
-    <title>006</title>
+    <title>007</title>
 </head>
 <body style="background-color: <?php echo $color?>">
     <form action="" method="get">
