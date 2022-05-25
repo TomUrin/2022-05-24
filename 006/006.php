@@ -1,3 +1,13 @@
+<?php
+$color = '';
+if ($_SERVER['REQUEST_METHOD'] == 'GET') {
+    $color = '#3CB371';
+}
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $color = '#FFFF66';
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +17,7 @@
     <link rel="stylesheet" href = "./style006.css">
     <title>006</title>
 </head>
-<body>
+<body style="background-color: <?php echo $color?>">
     <form action="" method="get">
         <button type="submit" class = "btnGet">GET</button>
     </form>
