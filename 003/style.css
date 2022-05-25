@@ -1,0 +1,19 @@
+span {
+    font-size: 30px;
+}
+
+input {
+    font-size: 25px;
+}
+
+.btn {
+    width: 100px;
+    height: 27px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 5px;
+}
